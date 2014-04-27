@@ -1,0 +1,9 @@
+Member:
+Jingyu Liu 404193267
+Zhinan Guan 004118232
+
+1c part uses special stream control where ; is broken into differenct stream so 
+parallelism can be fully exploited.
+Some modification on 1a:
+	correctly handle cmd #comment
+	correctly handle newline newline cmd
